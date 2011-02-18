@@ -1,0 +1,22 @@
+LiveConnect is set of tools, with which you can make live forms or tables easily.
+"Live" means that if someone changes the same entity, which you are just editing,
+you will see a notification. Or, when having a table displayed in your browser while
+someone else adds a new row into that table, you will get immediate response
+in updating that table. These are some examples, how LiveConnect can work.
+However, LiveConnect is a general tool for any features like this.
+
+LiveConnect is based on these libraries:
+ - Nette + Doctrine 2 ORM in PHP application
+ - Node.js as event subscriber and notifier
+ - jQuery + jQuery UI on client side
+ - Socket.IO for communication between client and server
+
+
+LiveConnect consists of these parts:
+ ....TODO: write more doc
+
+
+Dependancies:
+ - ActiveEntity from https://github.com/juzna/iManaJUZment/tree/56fc2e0542cee2fc81d28fe961de4fdfc5433d0a/app/classes/ActiveEntity
+ 
+
